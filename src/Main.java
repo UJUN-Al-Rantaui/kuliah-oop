@@ -10,7 +10,7 @@ public class Main {
                 "Tanah Laut"
         );
 
-        System.out.printf("Hello %s\n",ujun);
+        ujun.perkenalan();
 
     }
 }

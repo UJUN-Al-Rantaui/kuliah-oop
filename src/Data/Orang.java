@@ -12,6 +12,14 @@ public class Orang {
         this.alamat = alamat;
     }
 
+    public void perkenalan() {
+        System.out.printf("""
+                Nama    : %s
+                Umur    : %d
+                Alamat  : %s
+                """,this.nama, this.umur, this.alamat);
+    }
+
     public String getNama() {
         return nama;
     }
@@ -39,4 +47,5 @@ public class Orang {
     public String toString() {
         return this.nama;
     }
+
 }
