@@ -1,9 +1,16 @@
+
+import Data.Orang;
+
 public class Main {
     public static void main(String[] args) {
 
-        String nama = "Muhammad Junaidi";
+        Orang ujun = new Orang(
+                "Muhammad Junaidi",
+                19,
+                "Tanah Laut"
+        );
 
-        System.out.printf("Hello %s\n",nama);
+        System.out.printf("Hello %s\n",ujun);
 
     }
 }
