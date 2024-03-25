@@ -1,15 +1,15 @@
 package Data;
 
 public class Hero {
-    public string nama;
+    public String nama;
     public int hp;
     public int attack;
-    public string role;
+    public String role;
     
-    public Hero(string nama,
+    public Hero(String nama,
                 int hp,
                 int attack,
-                string role) {
+                String role) {
         this.nama   = nama;
         this.hp     = hp;
         this.attack = attack;
@@ -18,9 +18,9 @@ public class Hero {
     
     public String toString() {
         return
-        "Nama Pahlawan  : " + this.nama +
-        "HP Pahlawan    : " + this.hp +
-        "Attack Pahlawan: " + this.attack +
+        "Nama Pahlawan  : " + this.nama + "\n" +
+        "HP Pahlawan    : " + this.hp + "\n" +
+        "Attack Pahlawan: " + this.attack + "\n" +
         "Role Pahlawan: " + this.role;
     }
 }
