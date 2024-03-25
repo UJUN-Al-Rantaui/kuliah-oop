@@ -1,5 +1,6 @@
 
 import Data.Orang;
+import Data.Mahasiswa;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,6 +12,14 @@ public class Main {
         );
 
         ujun.perkenalan();
-
+        
+        Mahasiswa junaidi = new Mahasiswa(
+            "2210010097",
+            "Muhammad Junaidi",
+            "Universitas Islam Muhammad Arsyad Al Banjari",
+            "Teknik Informatika");
+        
+        Mahasiswa.printBio(junaidi);
     }
+    
 }
